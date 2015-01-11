@@ -234,7 +234,7 @@
                         <property name="permission">none</property>
                         <property name="shortcut"></property>
                         <property name="unchecked_bitmap"></property>
-                        <event name="OnMenuSelection">__close_frame</event>
+                        <event name="OnMenuSelection">close_frame</event>
                         <event name="OnUpdateUI"></event>
                     </object>
                 </object>
@@ -254,7 +254,7 @@
                         <property name="permission">none</property>
                         <property name="shortcut">F1</property>
                         <property name="unchecked_bitmap"></property>
-                        <event name="OnMenuSelection">__show_about</event>
+                        <event name="OnMenuSelection">show_about</event>
                         <event name="OnUpdateUI"></event>
                     </object>
                 </object>
