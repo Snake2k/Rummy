@@ -14,5 +14,11 @@ class RGameBoard(RGUI.RMainFrame):
         self.Close()
     def show_about(self, event):
         wx.MessageBox("Working on it Jesus F***in' Christ..." + \
-                      "Brought to you by puddlejumper and Snake2k!.", "About",
+                      "\nBrought to you by puddlejumper and Snake2k!.", "About",
                       wx.OK | wx.ICON_INFORMATION)
+    def start_game(self, event):
+        self.RMainMenuPanel.Hide()
+        self.RMainGamePanel.Show()
+    def show_main_menu(self, event):
+        self.RMainGamePanel.Hide()
+        self.RMainMenuPanel.Show()
